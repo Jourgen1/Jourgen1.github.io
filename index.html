@@ -1,0 +1,467 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta
+    name="description"
+    content="Юрий Кашуба — fullstack-разработчик. Сайты, API, Telegram-боты и автоматизация под задачи бизнеса."
+  />
+  <meta name="theme-color" content="#0b0908" />
+  <meta name="author" content="Юрий Кашуба" />
+  <meta name="robots" content="index,follow" />
+  <meta property="og:title" content="Юрий Кашуба — сайты, API и Telegram-боты" />
+  <meta
+    property="og:description"
+    content="Собираю понятные цифровые продукты: от лендинга до API, ботов и деплоя."
+  />
+  <meta property="og:type" content="website" />
+  <meta property="og:locale" content="ru_RU" />
+  <title>Юрий Кашуба — сайты, API и Telegram-боты</title>
+  <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <a class="skip-link" href="#content">К содержанию</a>
+
+  <header class="site-header" data-header>
+    <a class="brand" href="#home" aria-label="На главную">
+      <span class="brand-mark" aria-hidden="true">ЮK</span>
+      <span class="brand-name">Юрий Кашуба</span>
+    </a>
+
+    <button
+      class="menu-toggle"
+      type="button"
+      aria-expanded="false"
+      aria-controls="main-navigation"
+      data-menu-toggle
+    >
+      <span class="sr-only">Открыть навигацию</span>
+      <span></span>
+      <span></span>
+    </button>
+
+    <nav class="main-navigation" id="main-navigation" aria-label="Основная навигация" data-menu>
+      <a href="#projects">Проекты</a>
+      <a href="#services">Услуги</a>
+      <a href="#process">Процесс</a>
+      <a
+        class="nav-contact"
+        href="#contact"
+        data-open-brief
+        aria-haspopup="dialog"
+        aria-controls="brief-dialog"
+      >
+        Обсудить задачу <span aria-hidden="true">↗</span>
+      </a>
+    </nav>
+  </header>
+
+  <main id="content" tabindex="-1">
+    <section class="hero section-shell" id="home">
+      <div class="hero-glow hero-glow-one" aria-hidden="true"></div>
+      <div class="hero-glow hero-glow-two" aria-hidden="true"></div>
+
+      <div class="hero-copy" data-reveal>
+        <p class="eyebrow"><span class="status-dot" aria-hidden="true"></span> Разработка для бизнеса · удалённо</p>
+        <h1>Из идеи — в <span class="hero-keyword">РАБОТАЮЩИЙ</span> продукт.</h1>
+        <p class="hero-lead">
+          Делаю сайты, API и Telegram-инструменты, которые упрощают работу и не требуют
+          перевода с технического на человеческий.
+        </p>
+
+        <div class="hero-actions">
+          <a class="button button-primary" href="https://t.me/disfor1ys" target="_blank" rel="noreferrer">
+            Написать в Telegram <span aria-hidden="true">↗</span>
+          </a>
+          <a
+            class="button button-secondary"
+            href="#contact"
+            data-open-brief
+            aria-haspopup="dialog"
+            aria-controls="brief-dialog"
+          >
+            Получить ориентир <span aria-hidden="true">↗</span>
+          </a>
+        </div>
+
+        <dl class="hero-facts" aria-label="Кратко обо мне">
+          <div>
+            <dt>1–7 дней</dt>
+            <dd>типовой срок задач</dd>
+          </div>
+          <div>
+            <dt>Python · JS</dt>
+            <dd>основной стек</dd>
+          </div>
+          <div>
+            <dt>от идеи до VPS</dt>
+            <dd>один исполнитель</dd>
+          </div>
+        </dl>
+      </div>
+
+      <aside class="hero-panel" aria-label="Направления работы" data-reveal>
+        <div class="panel-topline">
+          <span>01 / 03</span>
+          <span>Собираю под задачу</span>
+        </div>
+        <div class="panel-title-row">
+          <p>Сайты</p>
+          <span class="panel-orbit" aria-hidden="true"></span>
+        </div>
+        <div class="panel-item panel-item-accent">
+          <span class="panel-index">01</span>
+          <div>
+            <strong>Интерфейсы</strong>
+            <small>лендинги · формы · виджеты</small>
+          </div>
+          <span class="arrow" aria-hidden="true">↗</span>
+        </div>
+        <div class="panel-item">
+          <span class="panel-index">02</span>
+          <div>
+            <strong>Интеграции</strong>
+            <small>Telegram · CRM · API</small>
+          </div>
+          <span class="arrow" aria-hidden="true">↗</span>
+        </div>
+        <div class="panel-item">
+          <span class="panel-index">03</span>
+          <div>
+            <strong>Автоматизация</strong>
+            <small>Python · процессы · алерты</small>
+          </div>
+          <span class="arrow" aria-hidden="true">↗</span>
+        </div>
+        <p class="panel-note">Аккуратно спроектирую, соберу и помогу запустить.</p>
+      </aside>
+    </section>
+
+    <section class="projects section-shell section" id="projects">
+      <div class="section-heading" data-reveal>
+        <p class="eyebrow">Выбранные работы</p>
+        <div class="heading-row">
+          <h2>Проекты, где<br />технологии решают задачу.</h2>
+          <p>
+            Не витрина из шаблонов: в каждой работе — конкретный сценарий,
+            понятный пользователю и владельцу.
+          </p>
+        </div>
+      </div>
+
+      <div class="project-grid">
+        <article class="project-card project-card-featured" data-reveal>
+          <div class="project-copy">
+            <div class="project-meta">
+              <span>01 / Telegram</span>
+              <span>Python</span>
+            </div>
+            <h3>Заявки<br />в Telegram</h3>
+            <p>
+              Бот проводит человека через короткий диалог, собирает контакты и задачу,
+              а затем мгновенно отправляет готовую заявку владельцу.
+            </p>
+            <ul class="tag-list" aria-label="Технологии проекта">
+              <li>Python</li>
+              <li>Telegram Bot API</li>
+              <li>Conversation flow</li>
+            </ul>
+            <button class="case-toggle" type="button" aria-expanded="false" aria-controls="lead-details" data-case-toggle>
+              <span>Что внутри</span><span aria-hidden="true">+</span>
+            </button>
+            <div class="case-details" id="lead-details" role="region" aria-label="Детали Telegram-бота" hidden>
+              <p>Диалог в четыре шага: имя, телефон, задача и готовая заявка владельцу.</p>
+              <ul>
+                <li>настройка через .env</li>
+                <li>кнопка отправки контакта</li>
+                <li>запуск на VPS при необходимости</li>
+              </ul>
+            </div>
+          </div>
+          <div class="bot-preview" aria-hidden="true">
+            <div class="phone-top">
+              <span class="phone-camera" aria-hidden="true"></span>
+              <span>Заявки</span>
+              <span class="phone-online">online</span>
+            </div>
+            <div class="chat-bubble chat-bubble-in">
+              Здравствуйте! Оставьте заявку — ответим в ближайшее время.<br /><br />
+              Как вас зовут?
+            </div>
+            <div class="chat-bubble chat-bubble-out">Юрий</div>
+            <div class="chat-bubble chat-bubble-in">Телефон (кнопкой или текстом):</div>
+            <div class="contact-button">
+              <span aria-hidden="true">●</span> Отправить телефон
+            </div>
+            <div class="new-lead">
+              <span class="new-lead-dot" aria-hidden="true"></span>
+              <div>
+                <strong>Новая заявка</strong>
+                <small>контакт и задача уже у владельца</small>
+              </div>
+              <span aria-hidden="true">↗</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card project-card-form" data-reveal>
+          <div class="project-meta">
+            <span>02 / Frontend</span>
+            <span>HTML · CSS · JS</span>
+          </div>
+          <h3>Демо<br />потока заявок</h3>
+          <p>
+            Лёгкая адаптивная страница показывает клиенту путь его заявки ещё до запуска
+            полноценной интеграции.
+          </p>
+          <div class="form-preview" aria-hidden="true">
+            <div class="form-preview-head">
+              <span>Заявка</span>
+              <span class="form-preview-badge">демо</span>
+            </div>
+            <span class="form-label">Имя</span>
+            <span class="form-input">Иван</span>
+            <span class="form-label">Задача</span>
+            <span class="form-input form-input-long">Нужен бот для заявок…</span>
+            <span class="form-submit">Отправить <b aria-hidden="true">→</b></span>
+          </div>
+          <ul class="tag-list">
+            <li>адаптив</li>
+            <li>UI-сценарий</li>
+          </ul>
+          <button class="case-toggle" type="button" aria-expanded="false" aria-controls="form-details" data-case-toggle>
+            <span>Что внутри</span><span aria-hidden="true">+</span>
+          </button>
+          <div class="case-details" id="form-details" role="region" aria-label="Детали демо формы" hidden>
+            <p>Прототип формы помогает согласовать путь пользователя до разработки интеграции.</p>
+            <ul>
+              <li>адаптивная вёрстка</li>
+              <li>валидация сценария</li>
+              <li>понятный CTA</li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="project-card project-card-alerts" data-reveal>
+          <div class="project-meta">
+            <span>03 / Automation</span>
+            <span>Python</span>
+          </div>
+          <h3>Система<br />быстрых оповещений</h3>
+          <p>
+            Внутренний инструмент, который отправляет уведомления в Telegram и умеет
+            отдельно включать локальный будильник для срочных действий.
+          </p>
+          <div class="alert-preview" aria-hidden="true">
+            <div class="alert-pulse" aria-hidden="true"></div>
+            <div class="alert-card">
+              <span class="alert-icon" aria-hidden="true">!</span>
+              <div>
+                <small>Telegram · сейчас</small>
+                <strong>Нужно ваше действие</strong>
+                <p>Клиент ответил — можно продолжать.</p>
+              </div>
+            </div>
+            <div class="terminal-line"><span>$</span> notify.py --need "клиент ответил"</div>
+          </div>
+          <ul class="tag-list">
+            <li>Telegram API</li>
+            <li>автоматизация</li>
+            <li>алерты</li>
+          </ul>
+          <button class="case-toggle" type="button" aria-expanded="false" aria-controls="alerts-details" data-case-toggle>
+            <span>Что внутри</span><span aria-hidden="true">+</span>
+          </button>
+          <div class="case-details" id="alerts-details" role="region" aria-label="Детали системы оповещений" hidden>
+            <p>Инструмент разделяет обычные уведомления, срочный сигнал и локальный будильник.</p>
+            <ul>
+              <li>Telegram Bot API</li>
+              <li>опциональный Tor SOCKS</li>
+              <li>локальный сигнал для срочных задач</li>
+            </ul>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="services section-shell section" id="services">
+      <div class="section-heading services-heading" data-reveal>
+        <p class="eyebrow">Чем могу помочь</p>
+        <h2>Соберу решение<br />целиком или усилю<br />один участок.</h2>
+      </div>
+
+      <div class="service-list">
+        <article class="service-row" data-reveal>
+          <span class="service-number">01</span>
+          <h3>Сайт для бизнеса</h3>
+          <p>Лендинг, многостраничник, каталог, форма заявки или доработка существующего HTML.</p>
+          <span class="service-arrow" aria-hidden="true">↗</span>
+        </article>
+        <article class="service-row" data-reveal>
+          <span class="service-number">02</span>
+          <h3>API и интеграции</h3>
+          <p>FastAPI-сервисы, заявки в Telegram, CRM-сценарии, виджеты и понятный обмен данными.</p>
+          <span class="service-arrow" aria-hidden="true">↗</span>
+        </article>
+        <article class="service-row" data-reveal>
+          <span class="service-number">03</span>
+          <h3>Python-автоматизация</h3>
+          <p>Утилиты, обработка данных, уведомления и небольшие инструменты для ежедневных процессов.</p>
+          <span class="service-arrow" aria-hidden="true">↗</span>
+        </article>
+        <article class="service-row" data-reveal>
+          <span class="service-number">04</span>
+          <h3>Деплой и запуск</h3>
+          <p>Настройка VPS, nginx, systemd и SSL, чтобы результат был доступен не только на компьютере.</p>
+          <span class="service-arrow" aria-hidden="true">↗</span>
+        </article>
+      </div>
+    </section>
+
+    <section class="process section-shell section" id="process">
+      <div class="process-intro" data-reveal>
+        <p class="eyebrow">Как работаю</p>
+        <h2>Без пропадающих<br />исполнителей и магии<br />за закрытой дверью.</h2>
+      </div>
+      <ol class="process-steps">
+        <li data-reveal data-step="01">
+          <span>01</span>
+          <h3>Разбираюсь</h3>
+          <p>Уточняю цель, ограничения и то, по чему вы поймёте, что задача решена.</p>
+        </li>
+        <li data-reveal data-step="02">
+          <span>02</span>
+          <h3>Собираю</h3>
+          <p>Делаю рабочую версию, показываю ход работы и проверяю ключевые сценарии.</p>
+        </li>
+        <li data-reveal data-step="03">
+          <span>03</span>
+          <h3>Запускаю</h3>
+          <p>Передаю результат, помогаю с публикацией и объясняю, что с ним делать дальше.</p>
+        </li>
+      </ol>
+    </section>
+
+    <section class="pricing section-shell section" aria-labelledby="pricing-title">
+      <div class="pricing-intro" data-reveal>
+        <p class="eyebrow">Ориентиры по задачам</p>
+        <h2 id="pricing-title">Стоимость — после<br />понимания задачи.</h2>
+        <p>Ниже — ориентиры, чтобы было проще начать разговор. Точная оценка зависит от ТЗ и доступов.</p>
+      </div>
+      <div class="pricing-grid">
+        <article data-reveal>
+          <span>Мелкая доработка</span>
+          <strong>5–15 тыс. ₽</strong>
+          <small>1–2 дня</small>
+        </article>
+        <article data-reveal>
+          <span>Лендинг / сайт</span>
+          <strong>25–60 тыс. ₽</strong>
+          <small>3–7 дней</small>
+        </article>
+        <article data-reveal>
+          <span>Виджет + API + Telegram</span>
+          <strong>30–70 тыс. ₽</strong>
+          <small>3–5 дней</small>
+        </article>
+      </div>
+    </section>
+
+    <section class="contact section-shell" id="contact">
+      <div class="contact-orbit contact-orbit-large" aria-hidden="true"></div>
+      <div class="contact-orbit contact-orbit-small" aria-hidden="true"></div>
+      <div class="contact-content" data-reveal>
+        <p class="eyebrow">Есть задача?</p>
+        <h2>Давайте сделаем<br /><em>понятно и вовремя.</em></h2>
+        <p>
+          Напишите, что нужно получить. Я задам несколько вопросов, предложу первый шаг
+          и честно скажу, если задачу лучше решать иначе.
+        </p>
+        <div class="contact-actions">
+          <a class="button button-light" href="https://t.me/disfor1ys" target="_blank" rel="noreferrer">
+            @disfor1ys <span aria-hidden="true">↗</span>
+          </a>
+          <button
+            class="email-copy"
+            type="button"
+            data-copy-email
+            data-email="ivanovivanovore@gmail.com"
+            aria-label="Скопировать email ivanovivanovore@gmail.com"
+            title="Скопировать email"
+          >
+            <span>ivanovivanovore@gmail.com</span>
+            <span class="copy-icon" aria-hidden="true">⧉</span>
+          </button>
+        </div>
+        <p class="copy-status" aria-live="polite" data-copy-status></p>
+      </div>
+    </section>
+  </main>
+
+  <dialog
+    class="brief-dialog"
+    id="brief-dialog"
+    aria-labelledby="brief-title"
+    aria-describedby="brief-intro"
+    data-brief-dialog
+  >
+    <div class="brief-dialog-inner">
+      <button class="dialog-close" type="button" data-close-brief aria-label="Закрыть окно">×</button>
+      <p class="eyebrow">Быстрый бриф</p>
+      <h2 id="brief-title">Соберите запрос <br />за минуту.</h2>
+      <p class="brief-intro" id="brief-intro">
+        Это ориентир, не автоматический договор: точную оценку подтвержу после деталей.
+      </p>
+
+      <form class="brief-form" data-brief-form novalidate>
+        <label for="brief-type">Что нужно сделать?</label>
+        <select id="brief-type" data-brief-type>
+          <option value="site">Лендинг или небольшой сайт</option>
+          <option value="integration">Виджет, API или Telegram-интеграция</option>
+          <option value="automation">Python-скрипт или автоматизация</option>
+          <option value="revision">Небольшая доработка</option>
+        </select>
+
+        <fieldset>
+          <legend>Какой темп нужен?</legend>
+          <div class="brief-paces">
+            <label><input type="radio" name="pace" value="normal" checked data-brief-pace /> Обычный</label>
+            <label><input type="radio" name="pace" value="urgent" data-brief-pace /> Срочно</label>
+          </div>
+        </fieldset>
+
+        <label for="brief-goal">Опишите цель в двух словах <span>(необязательно)</span></label>
+        <textarea id="brief-goal" rows="3" placeholder="Например: получать заявки с сайта в Telegram" data-brief-goal></textarea>
+
+        <div class="brief-estimate" aria-live="polite">
+          <span>Ориентир по задаче</span>
+          <strong data-brief-price>25–60 тыс. ₽</strong>
+          <small data-brief-time>3–7 дней</small>
+        </div>
+
+        <div class="brief-actions">
+          <button class="button button-primary" type="button" data-copy-brief>Скопировать запрос</button>
+          <button class="button button-secondary" type="button" data-email-brief>Отправить на email</button>
+          <a class="brief-telegram" href="https://t.me/disfor1ys" target="_blank" rel="noreferrer">
+            Открыть Telegram <span aria-hidden="true">↗</span>
+          </a>
+        </div>
+        <p class="brief-status" aria-live="polite" data-brief-status></p>
+      </form>
+    </div>
+  </dialog>
+
+  <footer class="site-footer section-shell">
+    <a class="brand" href="#home" aria-label="Вернуться наверх">
+      <span class="brand-mark" aria-hidden="true">ЮK</span>
+      <span class="brand-name">Юрий Кашуба</span>
+    </a>
+    <p>Сайты · API · боты · автоматизация</p>
+    <p>© <span data-year></span></p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

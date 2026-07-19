@@ -15,7 +15,9 @@ python -m http.server 4173 --bind 127.0.0.1
 
 Сайт не требует сборки: загрузите содержимое папки `portfolio` в GitHub Pages, Netlify или на VPS.
 
-Перед публикацией на собственный домен добавьте в `index.html` финальный canonical URL и Open Graph URL.
+Текущая публичная версия: https://jourgen1.github.io/
+
+Перед подключением собственного домена обновите в `index.html` canonical URL и Open Graph URL, а также `robots.txt` и `sitemap.xml`.
 
 ## Файлы
 
@@ -23,3 +25,5 @@ python -m http.server 4173 --bind 127.0.0.1
 - `styles.css` — адаптивный дизайн;
 - `script.js` — меню, мини-бриф, копирование контактов и интерактивные детали кейсов;
 - `favicon.svg` — иконка вкладки.
+- `robots.txt` и `sitemap.xml` — базовые инструкции для поисковых систем;
+- `404.html` — брендированная страница несуществующего маршрута.

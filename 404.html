@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#0b0908" />
+  <meta name="robots" content="noindex" />
+  <title>Страница не найдена — Юрий Кашуба</title>
+  <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+  <style>
+    :root { color-scheme: dark; }
+    * { box-sizing: border-box; }
+    body {
+      min-height: 100vh;
+      margin: 0;
+      display: grid;
+      place-items: center;
+      padding: 1.5rem;
+      overflow: hidden;
+      background:
+        radial-gradient(circle at 75% 18%, rgba(194, 35, 41, .2), transparent 20rem),
+        linear-gradient(150deg, #0c0a09, #070605);
+      color: #f5ede1;
+      font-family: Inter, system-ui, -apple-system, "Segoe UI", sans-serif;
+    }
+    main { position: relative; width: min(100%, 720px); }
+    main::before {
+      position: absolute;
+      z-index: -1;
+      top: -7rem;
+      right: -8rem;
+      width: 20rem;
+      height: 20rem;
+      border: 1px solid rgba(245, 237, 225, .16);
+      border-radius: 50%;
+      box-shadow: 0 0 0 3rem rgba(212, 43, 48, .04), 0 0 0 6rem rgba(212, 43, 48, .02);
+      content: "";
+    }
+    .brand {
+      display: inline-flex;
+      align-items: center;
+      gap: .65rem;
+      color: #f5ede1;
+      font-size: .8rem;
+      font-weight: 800;
+      text-decoration: none;
+    }
+    .mark {
+      display: grid;
+      width: 2rem;
+      height: 2rem;
+      place-items: center;
+      border: 1px solid #df3439;
+      border-radius: .22rem;
+      background: #bb2428;
+      color: #fff8ed;
+      font-size: .72rem;
+    }
+    .code { margin: 5rem 0 1rem; color: #df3439; font-size: .75rem; font-weight: 900; letter-spacing: .14em; }
+    h1 { max-width: 10ch; margin: 0; font-size: clamp(3.5rem, 10vw, 7rem); letter-spacing: -.09em; line-height: .84; }
+    h1 em { color: #df3439; font-family: Georgia, serif; font-size: .8em; font-weight: 500; letter-spacing: -.08em; }
+    p { max-width: 33rem; margin: 1.5rem 0 2rem; color: #b8ada0; font-size: 1rem; line-height: 1.7; }
+    .actions { display: flex; flex-wrap: wrap; gap: .7rem; }
+    .button {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 3.1rem;
+      padding: .85rem 1.1rem;
+      border: 1px solid rgba(245, 237, 225, .3);
+      border-radius: .2rem;
+      color: #f5ede1;
+      font-size: .82rem;
+      font-weight: 800;
+      text-decoration: none;
+      transition: transform .18s ease, background .18s ease;
+    }
+    .button:hover { transform: translateY(-2px); background: rgba(245, 237, 225, .08); }
+    .button-primary { border-color: #d42b30; background: #d42b30; color: #fff8ed; }
+    .button-primary:hover { background: #b92025; }
+    :focus-visible { outline: 2px solid #f5ede1; outline-offset: 4px; }
+    @media (max-width: 480px) {
+      .code { margin-top: 3.5rem; }
+      .actions .button { width: 100%; }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <a class="brand" href="/" aria-label="Вернуться на главную">
+      <span class="mark" aria-hidden="true">YK</span>
+      <span>Юрий Кашуба</span>
+    </a>
+    <p class="code">404 / НЕ НАЙДЕНО</p>
+    <h1>Такой страницы <em>нет.</em></h1>
+    <p>Возможно, ссылка устарела. Вернитесь на главную или напишите мне — помогу сориентироваться.</p>
+    <div class="actions">
+      <a class="button button-primary" href="/">На главную</a>
+      <a class="button" href="https://t.me/disfor1ys" target="_blank" rel="noreferrer">Написать в Telegram ↗</a>
+    </div>
+  </main>
+</body>
+</html>

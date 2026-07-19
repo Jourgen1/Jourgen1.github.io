@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://jourgen1.github.io/sitemap.xml
